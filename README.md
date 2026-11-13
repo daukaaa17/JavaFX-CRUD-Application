@@ -71,10 +71,12 @@ The database file `identifier.sqlite` is created in the working directory when t
 
 # Run the application
 ./mvnw clean javafx:run          # Linux / macOS
+
 mvnw.cmd clean javafx:run        # Windows
 
 ## Running the tests
 ./mvnw test                      # Linux / macOS
+
 mvnw.cmd test                    # Windows
 
 `PersonDAOTest` covers the four DAO operations: adding a person, listing all persons, updating a person and deleting a person.
