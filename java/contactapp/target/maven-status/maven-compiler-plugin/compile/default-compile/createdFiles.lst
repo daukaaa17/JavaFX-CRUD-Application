@@ -1,0 +1,7 @@
+org\project\tasks\contactapp\view\PersonFormController.class
+module-info.class
+org\project\tasks\contactapp\model\Person.class
+org\project\tasks\contactapp\dao\DataSourceFactory.class
+org\project\tasks\contactapp\view\PersonController.class
+org\project\tasks\contactapp\ContactApp.class
+org\project\tasks\contactapp\dao\PersonDAO.class

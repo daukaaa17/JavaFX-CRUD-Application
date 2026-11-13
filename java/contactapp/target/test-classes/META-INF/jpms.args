@@ -1,0 +1,4 @@
+--patch-module
+org.project.tasks.contactapp=_
+--add-reads
+org.project.tasks.contactapp=ALL-UNNAMED

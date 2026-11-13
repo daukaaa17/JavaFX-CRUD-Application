@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.project.tasks.contactapp.view.PersonController">
+    <TableView fx:id="personTable">
+        <columns>
+            <TableColumn text="ID" fx:id="idColumn">
+                <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Last Name" fx:id="lastNameColumn">
+                <cellValueFactory><PropertyValueFactory property="lastname" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="First Name" fx:id="firstNameColumn">
+                <cellValueFactory><PropertyValueFactory property="firstname" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Nickname" fx:id="nicknameColumn">
+                <cellValueFactory><PropertyValueFactory property="nickname" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Phone Number" fx:id="phoneNumberColumn">
+                <cellValueFactory><PropertyValueFactory property="phoneNumber" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Address" fx:id="addressColumn">
+                <cellValueFactory><PropertyValueFactory property="address" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Email" fx:id="emailColumn">
+                <cellValueFactory><PropertyValueFactory property="emailAddress" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Birth Date" fx:id="birthDateColumn">
+                <cellValueFactory><PropertyValueFactory property="birthDate" /></cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+    <HBox spacing="10">
+        <Button text="Add Person" onAction="#handleAddPerson" />
+        <Button text="Update Person" onAction="#handleUpdatePerson" />
+        <Button text="Delete Person" onAction="#handleDeletePerson" />
+    </HBox>
+</VBox>
