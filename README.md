@@ -69,7 +69,7 @@ The database file `identifier.sqlite` is created in the working directory when t
 
 **Requirements:** JDK 17 or newer. Maven is not required, because the project includes the Maven wrapper.
 
-# Run the application
+## Run the application
 ./mvnw clean javafx:run          # Linux / macOS
 
 mvnw.cmd clean javafx:run        # Windows
